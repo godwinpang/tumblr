@@ -259,7 +259,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A9645142022DBF600DD3AE9 /* Build configuration list for PBXProject "tumblr" */;
+			buildConfigurationList = 5A9645142022DBF600DD3AE9 /* Build configuration list for PBXProject "Tumblr Photos" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -726,7 +726,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A9645142022DBF600DD3AE9 /* Build configuration list for PBXProject "tumblr" */ = {
+		5A9645142022DBF600DD3AE9 /* Build configuration list for PBXProject "Tumblr Photos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A96453F2022DBF600DD3AE9 /* Debug */,

@@ -11,6 +11,8 @@
 		4CCFCCD46CF95DBB34BB7E2B /* Pods_tumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CA214731304230DE8840EC /* Pods_tumblr.framework */; };
 		5A58DFE42022E36C0092C8A6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A58DFE32022E36C0092C8A6 /* PhotoCell.swift */; };
 		5A58DFE62022E3B30092C8A6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A58DFE52022E3B20092C8A6 /* PhotosViewController.swift */; };
+		5A8B6ECC202C0DF300891C2A /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B6ECB202C0DF300891C2A /* PhotoDetailsViewController.swift */; };
+		5A8B6ECE202C16E500891C2A /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B6ECD202C16E500891C2A /* FullScreenViewController.swift */; };
 		5A96451D2022DBF600DD3AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96451C2022DBF600DD3AE9 /* AppDelegate.swift */; };
 		5A9645222022DBF600DD3AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9645202022DBF600DD3AE9 /* Main.storyboard */; };
 		5A9645242022DBF600DD3AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9645232022DBF600DD3AE9 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		4AAA955B412CA4A9D107E97D /* Pods-tumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumblr/Pods-tumblr.debug.xcconfig"; sourceTree = "<group>"; };
 		5A58DFE32022E36C0092C8A6 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		5A58DFE52022E3B20092C8A6 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		5A8B6ECB202C0DF300891C2A /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		5A8B6ECD202C16E500891C2A /* FullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewController.swift; sourceTree = "<group>"; };
 		5A9645192022DBF600DD3AE9 /* tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A96451C2022DBF600DD3AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9645212022DBF600DD3AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,9 +134,11 @@
 				5A58DFE32022E36C0092C8A6 /* PhotoCell.swift */,
 				5A96451C2022DBF600DD3AE9 /* AppDelegate.swift */,
 				5A9645202022DBF600DD3AE9 /* Main.storyboard */,
+				5A8B6ECB202C0DF300891C2A /* PhotoDetailsViewController.swift */,
 				5A9645232022DBF600DD3AE9 /* Assets.xcassets */,
 				5A9645252022DBF600DD3AE9 /* LaunchScreen.storyboard */,
 				5A9645282022DBF600DD3AE9 /* Info.plist */,
+				5A8B6ECD202C16E500891C2A /* FullScreenViewController.swift */,
 			);
 			path = tumblr;
 			sourceTree = "<group>";
@@ -259,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A9645142022DBF600DD3AE9 /* Build configuration list for PBXProject "Tumblr Photos" */;
+			buildConfigurationList = 5A9645142022DBF600DD3AE9 /* Build configuration list for PBXProject "tumblr" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -463,6 +469,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8B6ECE202C16E500891C2A /* FullScreenViewController.swift in Sources */,
+				5A8B6ECC202C0DF300891C2A /* PhotoDetailsViewController.swift in Sources */,
 				5A58DFE62022E3B30092C8A6 /* PhotosViewController.swift in Sources */,
 				5A96451D2022DBF600DD3AE9 /* AppDelegate.swift in Sources */,
 				5A58DFE42022E36C0092C8A6 /* PhotoCell.swift in Sources */,
@@ -726,7 +734,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A9645142022DBF600DD3AE9 /* Build configuration list for PBXProject "Tumblr Photos" */ = {
+		5A9645142022DBF600DD3AE9 /* Build configuration list for PBXProject "tumblr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A96453F2022DBF600DD3AE9 /* Debug */,

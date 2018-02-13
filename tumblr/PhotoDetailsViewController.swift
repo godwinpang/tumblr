@@ -16,7 +16,6 @@ class PhotoDetailsViewController: UIViewController {
     @IBOutlet weak var detailedPhotoView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         detailedPhotoView.af_setImage(withURL: photoUrl)
     }
 
